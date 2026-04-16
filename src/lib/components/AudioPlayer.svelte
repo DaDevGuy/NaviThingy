@@ -1315,7 +1315,7 @@
 					</div>
 				</div>
 			{:else}
-				{@const volumeIcon = getVolumeIcon()}
+				{@const VolumeIcon = getVolumeIcon()}
 				<div
 					class="mt-4 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-4"
 					in:fly={{
@@ -1455,7 +1455,7 @@
 								onmouseleave={handleVolumeLeave}
 								aria-label={volume === 0 ? 'Unmute' : 'Mute'}
 							>
-								<volumeIcon size={20}></volumeIcon>
+								<VolumeIcon size={20} />
 							</button>
 
 							<!-- svelte-ignore a11y_no_static_element_interactions -->
