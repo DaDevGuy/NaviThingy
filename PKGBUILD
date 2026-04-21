@@ -1,13 +1,13 @@
 # Maintainer: creations <creations@creations.works>
 pkgname=navithingy-git
-pkgver=0.8.6
+pkgver=0.8.6.r90.341d162
 pkgrel=1
 pkgdesc="A Navidrome client built with Tauri and Svelte."
 arch=("$CARCH")
 url="https://github.com/vMohammad24/NaviThingy"
 license=('MIT')
 depends=('gtk3' 'gstreamer' 'gst-plugins-base' 'gst-plugins-good' 'gst-plugins-bad' 'gst-plugins-ugly')
-makedepends=('git' 'rust' 'bun' 'cargo-tauri' 'pkg-config' 'clang' 'lld' 'webkit2gtk' 'openssl' 'glib2' 'zlib' 'patchelf' 'jq')
+makedepends=('git' 'rust' 'bun' 'cargo-tauri' 'pkg-config' 'clang' 'lld' 'webkit2gtk' 'openssl' 'glib2' 'zlib' 'patchelf' 'jq' 'webkit2gtk-4.1')
 optdepends=(
     "libappindicator-gtk3: System tray support"
     "gst-plugin-pipewire: Required for PipeWire-based audio playback"
